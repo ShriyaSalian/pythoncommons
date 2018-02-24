@@ -7,7 +7,7 @@ setup(
         'pymongo',
         'bson',
         'geojson'
-    ]
+    ],
     include_package_data=True,
     version='0.0.1',
     description='Generic, behavior grouped python utilities.',
