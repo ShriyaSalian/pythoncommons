@@ -1,6 +1,6 @@
 import subprocess
 import shlex
-from . import utils
+from . import general_utils
 
 # globals
 git_return_status_dictionary = {0: True,

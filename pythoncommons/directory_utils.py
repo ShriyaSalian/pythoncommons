@@ -1,7 +1,7 @@
 import os
 import sys
 import shutil
-from . import property_reader
+from . import property_reader_utils
 
 """
 The purpose of this module is to copy the directory structure of a

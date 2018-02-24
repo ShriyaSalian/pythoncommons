@@ -1,6 +1,5 @@
 # import shapefile (unavailable on server, look for alternatives)
 import geojson
-# dummy push 2
 
 
 def make_point(x, y, z=None):

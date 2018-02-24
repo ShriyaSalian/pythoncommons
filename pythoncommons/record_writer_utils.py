@@ -1,5 +1,5 @@
 from collections import namedtuple
-from .utils import translate_delimiter, get_timestamp
+from .general_utils import translate_delimiter, get_timestamp
 
 
 def get_name(named_tuple):
