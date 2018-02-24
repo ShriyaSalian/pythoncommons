@@ -108,7 +108,7 @@ def git_create_branch(directory, git_hash, branch=None, checkout=True):
     allows to create branch without checking it out.
     """
     if not branch:
-        branch = utils.get_random_string()
+        branch = general_utils.get_random_string()
     if checkout:
         git_string = 'git -C {directory} checkout -b {branch} {git_hash}'.format(directory=directory,
                                                                                  git_hash=git_hash,
