@@ -1,7 +1,7 @@
 from collections import namedtuple
-from .property_reader_utils import make_dictionary
-from .general_utils import translate_delimiter
-from .directory_utils import get_matching_files
+from pythoncommons.property_reader_utils import make_dictionary
+from pythoncommons.general_utils import translate_delimiter
+from pythoncommons.directory_utils import get_matching_files
 import csv
 import decimal
 import sys

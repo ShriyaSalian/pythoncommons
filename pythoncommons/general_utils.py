@@ -1,5 +1,5 @@
 from datetime import datetime
-from . import property_reader_utils
+from pythoncommons import property_reader_utils
 import os
 import inspect
 import random
