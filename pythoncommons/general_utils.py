@@ -1,5 +1,5 @@
 from datetime import datetime
-import property_reader_utils
+from . import property_reader_utils
 import os
 import inspect
 import random

@@ -1,8 +1,8 @@
 from pymongo import MongoClient, GEOSPHERE
 from bson.son import SON
 from bson import ObjectId
-import json_utils
-import record_reader_utils
+from . import json_utils
+from . import record_reader_utils
 
 
 def unload_cursor(cursor):
